@@ -1,0 +1,37 @@
+.promo {
+    min-height: 1080px;
+    width: 100%;
+    background: url(../../img/promo_bkg.png) center (center/cover) no-repeat;
+    &__wrapper {
+        display: flex;
+        height: 918px;
+        justify-content: center;
+        padding-top: 85px;
+        max-width: 1327px;
+    }
+    &__text {
+        display: flex;
+        flex-direction: column;
+        padding-top: 145px;
+        width: 100%;
+    }
+    &__title {
+        color: #FFF;
+        font-size: 70px;
+        font-weight: 600;
+        white-space: nowrap;
+        padding-bottom: 20px;
+    }
+    &__subtitle {
+        color: #FFF;
+        font-size: 20px;
+        font-weight: 400;
+        padding-bottom: 50px;
+    }
+    &__image{
+        img {
+            height: 920px;
+        }
+    }
+
+}

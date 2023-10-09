@@ -1,0 +1,30 @@
+.termination {
+    background: #F9F9F9;
+    &__title {
+        color: #141024;
+        font-size: 50px;
+        font-weight: 600;
+        padding-top: 100px;
+        padding-bottom: 60px;
+    }
+    &__numbers {
+        display: flex;
+        padding-bottom: 100px;
+        &-item {
+            margin-right: 40px;
+            &__title {
+                color: #141024;
+                font-size: 24px;
+                font-weight: 600;
+            }
+            &__subtitle {
+                color: rgba(20, 16, 36, 0.70);
+                font-size: 18px;
+                font-weight: 400;
+            }
+        }
+        &-item:nth-child(3) {
+            margin-right: 0;
+        }
+    }
+}
