@@ -1,0 +1,29 @@
+.footer {
+    min-height: 159px;
+    background: #141024;
+    display: flex;
+    justify-content: space-between;
+    &__logo {
+        color: #FFF;
+        font-size: 30px;
+        font-weight: 700;
+    }
+    &__company {
+        color: rgba(255, 255, 255, 0.70);
+        font-size: 16px;
+        font-weight: 400;
+    }
+    &__right {
+        margin-right: 100px;
+        margin-top: 40px;
+        a {
+            color: #FFF;
+            font-size: 30px;
+            font-weight: 600;
+        }
+    }
+    &__left {
+        margin-top: 40px;
+        margin-left: 100px;
+    }
+}

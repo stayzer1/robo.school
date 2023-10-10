@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
+    <link rel="stylesheet" href="css/slick.css"/>
     <link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
@@ -79,11 +80,145 @@
                 </div>
                 <div class="termination__numbers-item">
                     <div class="termination__numbers-item__title">Практику</div>
-                    <div class="termination__numbers-item__subtitle">Возможность пройти практику  по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</div>
+                    <div class="termination__numbers-item__subtitle">Возможность пройти практику по преподаванию робототехники на базе R:ED LAB (в оффлайн или онлайн формате)</div>
                 </div>
             </div>
         </div>
     </div>
+    <div class="carousel">
+        <div class="container">
+            <div class="carousel__title">Профессиональные тренеры</div>
+            <div class="carousel__inner">
+                <div class="carousel__inner-item">
+                    <img src="img/irina1.png" alt="Irina">
+                    <div class="carousel__inner-item__name">Ирина Лайм</div>
+                    <div class="carousel__inner-item__descr">преподаватель по робототехнике</div>
+                    <div class="carousel__inner-item__info">Подробнее</div>
+                </div>
+                <div class="carousel__inner-item">
+                    <img src="img/marina2.png" alt="Marina">
+                    <div class="carousel__inner-item__name">Марина Орлова</div>
+                    <div class="carousel__inner-item__descr">преподаватель по робототехнике</div>
+                    <div class="carousel__inner-item__info" data-modal="marina_modal">Подробнее</div>
+                </div>
+                <div class="carousel__inner-item">
+                    <img src="img/maksim3.png" alt="Maksim">
+                    <div class="carousel__inner-item__name">Максим Петров</div>
+                    <div class="carousel__inner-item__descr">преподаватель по программированию</div>
+                    <div class="carousel__inner-item__info">Подробнее</div>
+                </div>
+                <div class="carousel__inner-item">
+                    <img src="img/konstantin4.png" alt="Konstantin">
+                    <div class="carousel__inner-item__name">Константин Назаров</div>
+                    <div class="carousel__inner-item__descr">преподаватель по робототехнике</div>
+                    <div class="carousel__inner-item__info">Подробнее</div>
+                </div>
+                <div class="carousel__inner-item">
+                    <img src="img/liza5.png" alt="Liza">
+                    <div class="carousel__inner-item__name">Лиза Весенняя</div>
+                    <div class="carousel__inner-item__descr">преподаватель по программированию</div>
+                    <div class="carousel__inner-item__info">Подробнее</div>
+                </div>
+            </div>
+        </div>
     </div>
+    <div class="package">
+        <div class="container">
+            <div class="package__title">Выберите нужный пакет</div>
+            <div class="package__tabs">
+                <div class="package__tabs-item package__tabs-item_active">
+                    <div class="package__tabs-item__name1">– PRO –</div>
+                    <div class="package__tabs-item__price1">20.000 ₽</div>
+                    <div class="package__tabs-item__descr1">УМК по робототетхнике и программированию</div>
+                    <button class="package__tabs-item__button button">Оставить заявку</button>
+                </div>
+                <div class="package__tabs-item">
+                    <div class="package__tabs-item__name">– ROBO –</div>
+                    <div class="package__tabs-item__price">15.000 ₽</div>
+                    <div class="package__tabs-item__descr">УМК по робототетхнике</div>
+                    <button class="package__tabs-item__button button">Оставить заявку</button>
+                </div>
+                <div class="package__tabs-item">
+                    <div class="package__tabs-item__name">– PROG –</div>
+                    <div class="package__tabs-item__price">10.000 ₽</div>
+                    <div class="package__tabs-item__descr">УМК по программированию</div>
+                    <button class="package__tabs-item__button button">Оставить заявку</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="consultation">
+        <div class="container grid__container">
+            <div class="consultation__info">
+                <div class="consultation__info-title">Запишитесь на курс со скидкой 10%</div>
+                <div class="consultation__info-subtitle">Акция действительна до 10 марта 2022 года</div>
+            </div>
+            <div class="consultation__form">
+                <form class="consultation__form-item" action="#">
+                    <input name="name" required placeholder="Имя" type="text">
+                    <input name="phone" required placeholder="Телефон">
+                    <input name="email" required placeholder="E-mail" type="email">
+                    <button class="button">Оформить заявку</button>
+                </form>
+            </div>
+        </div>
+    </div>
+    <footer class="footer">
+        <div class="footer__left">
+            <div class="footer__logo">ROBO.SCHOOL</div>
+            <div class="footer__company">© ROBO.SCHOOL</div>
+        </div>
+        <div class="footer__right">
+            <a href=tel:+78000001122>+7 800 000 11 22</a>
+        </div>
+    </footer>
+    <div class="overlay">
+        <div class="modal" id="marina">
+            <div class="modal__content">
+                <div class="modal__inner">
+                    <img src="img/marina_modal.png" alt="Marina" class="modal__inner-photo">
+                    <div class="modal__inner__info">
+                        <div class="modal__inner__info-name">Марина Орлова</div>
+                        <div class="modal__inner__info-descr">преподаватель по робототехнике</div>
+                        <div class="modal__inner__info-links">
+                            <img src="icons/Facebook.svg" alt="Facebook">
+                            <img src="icons/Instagram.svg" alt="Instagram">
+                        </div>
+                    </div>
+                    <div class="modal__close">Закрыть</div>
+                </div>
+
+                <div class="modal__main">
+                    <div class="modal__tabs">
+                        <div class="modal__tab modal__tab_active">Образование</div>
+                        <div class="modal__tab">Опыт работы</div>
+                        <div class="modal__tab">Награды</div>
+                    </div>
+                    <hr>
+                    <div class="modal__info modal__info_active">
+                        <div class="modal__info__education">
+                            Сентябрь 1995 — Июнь 2000 <br>
+                            Санкт-Петербургский политехнический университет Петра Великого <br>
+                            Факультет: Компьютерных наук и технологий <br>
+                            Специальность: Математика и компьютерные науки <br>
+                            Форма обучения: Очная
+                        </div>
+                        <div class="modal__info__courses">
+                            <div class="modal__info__courses-title">Курсы и тренинги</div>
+                            Ноябрь 2020 — Февраль 2021 <br>
+                            Программа дополнительного образования «3D Моделирование» <br>
+                            Место проведения: Институт дополнительного образования «Политех»
+                        </div>
+                        <div class="modal__info"></div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
 </body>
 </html>
