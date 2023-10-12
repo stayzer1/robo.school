@@ -1,0 +1,404 @@
+@media (max-width: 1200px) {
+    .container {
+        max-width: 960px
+    }
+    .promo {
+        height: 718px;
+        &__image {
+            width: 100%;
+            display: block;
+            img {
+                width: 100%;
+                max-height: 920px;
+            }
+        }
+        &__title {
+            font-size: 60px;
+        }
+        &__subtitle {
+            font-size: 17px;
+        }
+    }
+    .header {
+        &__logo {
+            font-size: 27px;
+        }
+        &__info {
+            font-size: 17px;
+        }
+        &__tele {
+            a {
+                font-size: 26px;
+            }
+        }
+    }
+    .info {
+        &__title {
+            font-size: 25px;
+        }
+        &__numbers-item__title {
+            font-size: 60px;
+        }
+        &__numbers-item__subtitle {
+            font-size: 15px;
+            padding-right: 35px;
+        }
+    }
+    .termination {
+        &__title {
+            font-size: 40px;
+        }
+        &__numbers-item__title {
+            font-size: 21px;
+        }
+        &__numbers-item__subtitle {
+            font-size: 15px;
+        }
+    }
+    .carousel {
+        &__title {
+            font-size: 40px;
+            padding-top: 80px;
+        }
+        &__inner-item {
+            width: 100%;
+        }
+        .slick-prev {
+            bottom: -41px;
+            left: 77%;
+        }
+        .slick-next {
+            left: 82%;
+        }
+    }
+    .package {
+        &__title {
+            font-size: 40px;
+        }
+        &__tabs-item {
+            width: 270px;
+            &__name1, &__name {
+                font-size: 25px;
+                padding-bottom: 60px;
+            }
+            &__price1, &__price {
+                font-size: 40px;
+                padding-bottom: 50px;
+            }
+            &__descr1, &__descr {
+                font-size: 16px;
+                margin-left: 50px;
+                width: 150px;
+                padding-bottom: 90px;
+            }
+            &__button {
+                width: 190px;
+                height: 50px;
+                padding: 0;
+                font-size: 15px;
+            }
+        }
+        
+    }
+    .consultation {
+        .grid__container {
+            grid-gap: 88px;
+        }
+        &__info-title{
+            font-size: 30px;
+        }
+        &__info-subtitle {
+            font-size: 17px;
+        }
+    }
+    .footer {
+        &__logo {
+            font-size: 25px;
+        }
+        &__company {
+            font-size: 14px;
+        }
+        &__right {
+            a {
+                font-size: 25px;
+            }
+        }
+    }
+}
+@media (max-width: 992px) {
+    .container {
+        max-width: 720px;
+    }
+    .header {
+        &__logo {
+            font-size: 23px;
+        }
+        &__info {
+            font-size: 16px;
+        }
+        &__tele {
+            a {
+                font-size: 23px;
+            }
+        }
+    }
+    .promo {
+        height: 562px;
+        &__text{
+            padding-top: 50px;
+        }
+        &__title {
+            font-size: 50px;
+        }
+        &__subtitle {
+            font-size: 15px;
+        }
+        .button {
+            font-size: 15px;
+            width: 230px;
+            height: 65px;
+            padding: 15px 40px;
+        }
+    }
+    .info {
+        &__numbers {
+            margin-bottom: 80px;
+        }
+        &__title {
+            font-size: 22px;
+        }
+        &__numbers-item__title {
+            font-size: 50px;
+        }
+    }
+    .termination {
+        &__title {
+            padding-top: 80px;
+            font-size: 35px;
+        }
+        &__numbers {
+            padding-bottom: 80px;
+            &-item__title {
+                font-size: 19px;
+            }
+            &-item__subtitle {
+                font-size: 13px;
+            }
+        }
+    }
+    .carousel {
+        &__title {
+            font-size: 30px;
+        }
+        &__inner-item {
+            margin-right: 10px;
+            &__name {
+                font-size: 18px;
+                margin-bottom: 5px;
+            }
+            &__descr {
+                font-size: 15px;
+                margin-bottom: 5px;
+            }
+            &__info {
+                font-size: 15px;
+            }
+        }
+        .slick-next {
+            left: 90%;
+        }
+        .slick-prev {
+            bottom: -42px;
+            left: 84%;
+        }
+    }
+    .package {
+        &__title {
+            font-size: 30px;
+        }
+        &__tabs-item {
+            margin-right: 15px;
+            height: 430px;
+            &_active {
+                height: 450px;
+                top: -5px;
+            }
+            &__name, &__name1 {
+                font-size: 20px;
+                padding-bottom: 50px;
+            }
+            &__price, &__price1 {
+                font-size: 35px;
+            }
+            &__descr, &__descr1 {
+                font-size: 15px;
+                margin-left: 35px;
+                padding-bottom: 80px;
+            }
+        }
+    }
+    .consultation{
+        .grid__container {
+            grid-template-columns: repeat(8, 1fr);
+        }
+        &__info {
+            grid-column: 3 span;
+            &-title {
+                font-size: 22px;
+            }
+            &-subtitle {
+                font-size: 14px;
+            }
+        }
+        .consultation__form {
+            grid-column: 5 span;
+            &-item {
+                height: 90%;
+            }
+        }
+    }
+    .footer {
+        &__logo {
+            font-size: 21px;
+        }
+        &__company {
+            font-size: 12px;
+        }
+        &__right {
+            a {
+                font-size: 21px;
+            }
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        max-width: 540px;
+    }
+    .promo {
+        height: 417px;
+        .header {
+            &__logo {
+                font-size: 20px;
+            }
+            &__info {
+                font-size: 14px;
+            }
+            &__tele {
+                a {
+                    font-size: 20px;
+                }
+            }
+        }
+        &__title {
+            font-size: 35px;
+            padding-bottom: 10px;
+        }
+        &__subtitle {
+            font-size: 14px;
+            padding-bottom: 35px;
+        }
+        &__wrapper {
+            height: auto;
+            padding-top: 40px;
+        }
+        .button {
+            width: 215px;
+            height: 55px;
+        }
+    }
+    .info {
+        &__title {
+            margin-top: 80px;
+            font-size: 18px;
+        }
+        &__numbers-item__title {
+            font-size: 35px;
+        }
+        &__numbers-item__subtitle {
+            font-size: 11px;
+        }
+    }
+    .termination {
+        &__title {
+            font-size: 30px;
+        }
+        &__numbers-item__title {
+            font-size: 17px;
+        }
+        &__numbers-item__subtitle {
+            font-size: 11px;
+        }
+    }
+    .carousel {
+        &__title {
+            font-size: 25px;
+        }
+        .container {
+            width: 360px;
+        }
+        .slick-prev {
+            left: 77%;
+        }
+        &__inner-item__name {
+            font-size: 17px;
+            margin-bottom: -5px;
+            margin-top: 10px;
+        }
+        &__inner-item__descr {
+            font-size: 14px;
+            margin-bottom: -15px;
+        }
+    }
+    .package {
+        &__title {
+            font-size: 25px;
+        }
+        &__tabs-item {
+            width: 170px;
+            height: 340px;
+            &__name, &__name1 {
+                font-size: 18px;
+            }
+            &__price, &__price1 {
+                font-size: 27px;
+                padding-bottom: 40px;
+            }
+            &__descr, &__descr1 {
+                font-size: 12px;
+                margin-left: 4px;
+                padding-bottom: 50px;
+            }
+            &__button {
+                width: 135px;
+                height: 40px;
+                font-size: 13px;
+            }
+            &_active {
+                height: 360px;
+            }
+        }
+    }
+    .consultation {
+        .consultation__form {
+            margin-left: 0;
+            &-item {
+                height: 85%;
+            }
+        }
+    }
+    .footer {
+        &__logo {
+            font-size: 18px;
+        }
+        &__company {
+            font-size: 11px;
+        }
+        &__right {
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+}

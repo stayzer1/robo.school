@@ -1,5 +1,5 @@
 .promo {
-    min-height: 1080px;
+    max-height: 1080px;
     width: 100%;
     background: url(../../img/promo_bkg.png) center (center/cover) no-repeat;
     &__wrapper {
@@ -29,8 +29,13 @@
         padding-bottom: 50px;
     }
     &__image{
+        text-align: center;
+        align-items: center;
+        display: contents;
         img {
-            height: 920px;
+            max-height: 920px;
+            
+            
         }
     }
 
